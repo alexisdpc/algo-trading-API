@@ -69,16 +69,16 @@ def perform_mean_reversion_trading():
     eth_val = uniswap.get_price_input(eth, dai, 10**18)
     eth_to_usd = eth_val*1e-18
     current_price = eth_to_usd
-    if current_price < average_price * buy_threshold:
+    if current_price < average_price*buy_threshold:
         trade_type = "Buy"
-    elif current_price > average_price * sell_threshold:
+    elif current_price > average_price*sell_threshold:
         trade_type = "Sell"
     else:
         print("No trade opportunity at the moment.")
         return
 
     # Calculate the token amount based on the user's balance and desired percentage
-    max_amount = balance * 0.1  # Example: Trade up to 10% of account balance
+    max_amount = balance*0.1  # Example: Trade up to 10% of account balance
     amount = min(amount, max_amount)
 
     # Prompt the user for confirmation before executing the trade
