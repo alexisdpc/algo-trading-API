@@ -16,7 +16,7 @@ bat = "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
 dai = "0x6B175474E89094C44Da98b954EedeAC495271d0F"
 
 # Connect to the Ethereum network using Web3 and specify the provider (e.g., Infura)
-w3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID'))
+w3 = Web3(Web3.HTTPProvider(provider))
 
 # Add middleware for PoA (Proof of Authority) networks like the one used by Infura
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
