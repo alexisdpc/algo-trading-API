@@ -32,18 +32,18 @@ def prompt_confirmation(trade_type, amount):
 
 # Function to execute a trade on Uniswap
 def execute_trade(trade_type, amount):
-    # Implement the trade execution logic here
+
     print(f"Executing trade: {trade_type} {amount} tokens on Uniswap")
 
     if trade_type == 'buy':
-      uniswap.make_trade(eth, dai, 10**18)  # sell 1 ETH for DAI
+      uniswap.make_trade(dai, eth, 10**18) # sell 1 DAI for ETH
 
     if trade_type == 'sell':    
-      uniswap.make_trade(dai, eth, 10**18) # sell 1 DAI for ETH
+      uniswap.make_trade(eth, dai, 10**18)  # sell 1 ETH for DAI
 
 # Function to calculate the average price of the token
 def calculate_average_price():
-    # Implement the average price calculation logic here
+    # TODO: Need to get historical pricing data
     eth_val = uniswap.get_price_input(eth, dai, 10**18)
     eth_to_usd = eth_val*1e-18
     average_price = eth_to_usd
