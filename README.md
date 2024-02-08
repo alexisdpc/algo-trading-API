@@ -1,4 +1,5 @@
-# crypto-trading-API
-Python script to trade crypto using web3.py
+# Algorithmic Trading on the Vertex Protocol
 
-![image](https://github.com/alexisdpc/crypto-algo-trading-API/assets/124795834/dcdbf648-a052-4304-9138-e9d615047561)
+In this repository we implement automated trading in the Vertex protocol.\
+Using the Vertex API we automate buy and sell orders in a python script.\
+The orders can be checked in the online exchange as the image shows:
