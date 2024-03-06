@@ -1,4 +1,4 @@
-# Algorithmic Trading on the Vertex Protocol
+# Algorithmic trading on the Vertex protocol
 
 In this repository we implement automated trading in the Vertex protocol.\
 Using the Vertex API we automate buy and sell orders in a python script.\
