@@ -6,3 +6,9 @@ The orders can be checked in the online exchange as the image shows:
 
 ![image](https://github.com/alexisdpc/algo-trading-API/assets/124795834/dc4af327-c64d-4645-a608-e8ecf947b532)
 
+## Futures data using Deribit API
+
+The Jupyter notebook "" analyses futures data using Deribit's API.
+
+## DUNE analytics and ETH transaction fees
+
