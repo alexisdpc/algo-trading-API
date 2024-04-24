@@ -8,7 +8,7 @@ The orders can be checked in the online exchange as the image shows:
 
 ## Futures data using Deribit API
 
-The Jupyter notebook "" analyses futures data using Deribit's API.
+The Jupyter notebook `eth_futures_yield.ipynb` analyses futures data using Deribit's API.
 
 ![image](https://github.com/alexisdpc/algo-trading-API/assets/124795834/109b86ec-2536-4a10-b9a3-caf0dc63e9a4)
 
