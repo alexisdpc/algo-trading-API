@@ -14,7 +14,7 @@ The Jupyter notebook "" analyses futures data using Deribit's API.
 
 Here we provide an example query to obtain the total base and priority fees by block.
 
-```
+```sql
 /*  Base and priority fees in ETH by block. (Dune Analytics SQL query)
 Author: Alexis Plascencia   aplascenciac@gmail.com
 First, we combine the 'transactions' and 'blocks' table and complete the 'priority_fee_per_gas' */
