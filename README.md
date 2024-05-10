@@ -13,7 +13,7 @@ The Jupyter notebook `eth_futures_yield.ipynb` analyses futures data using Derib
 ![image](https://github.com/alexisdpc/algo-trading-API/assets/124795834/109b86ec-2536-4a10-b9a3-caf0dc63e9a4)
 
 
-## DUNE analytics and ETH transaction fees
+## DUNE Analytics and ETH transaction fees
 
 Here we provide an example query to obtain the total base and priority fees by block.
 
