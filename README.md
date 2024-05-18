@@ -53,3 +53,6 @@ ORDER BY 1 DESC
 
 ## Bitcoin price forecasting 
 
+![image](https://github.com/alexisdpc/algo-trading-API/assets/124795834/e17c0590-fd15-48b6-bdf1-ac49b4190054)
+
+
